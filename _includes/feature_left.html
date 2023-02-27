@@ -11,7 +11,7 @@
         <div class="mb-1 text-muted">{{ post.date | date: '%B %d, %Y' }}</div>
         <p class="card-text mb-auto">{{ post.summary }}</p>
         <p>&nbsp;</p>
-        <a href="{{post.url}}" class="stretched-link">Continue reading</a>
+        <a href="{{site.url}}{{site.baseurl}}{{post.url}}" class="stretched-link">Continue reading</a>
       </div>
       <div class="col-auto d-none d-lg-block">
         <img src="{{site.url}}{{site.baseurl}}{{post.thumbnail}}" />
