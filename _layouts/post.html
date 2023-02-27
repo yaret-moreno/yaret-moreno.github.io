@@ -7,7 +7,7 @@
 
       <h2 class="blog-post-title mb-1">{{ page.title }}</h2>
       <p></p>
-      <p class="blog-post-meta"><strong>On: </strong>{{ page.date }} | By: <a href="#">{{ page.author }}</a></p>
+      <p class="blog-post-meta"><strong>On: </strong>{{ page.date }} | By: <a href="{{site.url}}{{site.baseurl}}/authors/{{page.author}}">{{ page.author }}</a></p>
       <p><strong>Tags: </strong>
         {% for tag in page.tags %}
         {{tag}}, 
