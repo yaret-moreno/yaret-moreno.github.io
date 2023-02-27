@@ -14,7 +14,7 @@ gem "jekyll", "~> 4.3.2"
 # This is the default theme for new Jekyll Newspaper sites. 
 # You may change this to anything you like.
 
-gem "jekyll-newspaper"
+gem "jekyll-newspaper", "~> 0.0.1"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
