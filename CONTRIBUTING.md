@@ -1,48 +1,34 @@
-# Contributing to [hdg] on GitHub
+# Contributing to Jekyll Newspaper on GitHub
 
-Thank you for taking time to contribute to [hdg](https://github.com/hasidicdevs).
+Thank you for taking time to contribute to [hdg](https://github.com/hasidicdevs) theme [jekyll-newspaper](https://github.com/yosileyid/jekyll-newspaper). We want you to have a great experience making your first contribution. This contribution could be anything from a small fix to a typo in our documentation or a full feature. [Tell us](https://discord.gg/KpGXAEnVnv) what you enjoy working on and we would love to help!
 
-We want you to have a great experience making your first contribution.
-
-This contribution could be anything from a small fix to a typo in our
-documentation or a full feature.
-[Tell us](https://github.com/orgs/hasidicdevs/discussions) what you
-enjoy working on and we would love to help!
-
-If you would like to contribute, but don't know where to start, checkout the
-issues that are labeled **good first issue** or **help wanted**.
-You can contribute to our documentation and code in Rust, Elixir, Github
-Actions, Docker, Gradle etc.
-
-If you have any other questions about contributing, please ask them on this
-[discussion thread](https://github.com/orgs/hasidicdevs/discussions)
+If you would like to contribute, but don't know where to start, checkout the issues that are labeled **good first issue** or **help wanted**. You can contribute to our documentation and code in Rust, Elixir, Github
+Actions, Docker, Gradle etc. If you have any other questions about contributing, please ask them on this
+[discussion thread](https://discord.gg/KpGXAEnVnv)
 
 ## Code of Conduct
 
-We strive to keep the Ockam community an open and welcoming environment.
-Please read and follow our [Community Code of Conduct](/docs/conduct).
+We strive to keep the Ockam community an open and welcoming environment. Please read and follow our [Community Code of Conduct](https://hasidic.dev/conduct).
 
 ## Get help
 
-If you have any questions or need help integrating hdg-{apps} into your application
-please ask on [Github Discussions](https://github.com/orgs/hasidicdevs/discussions)
-or send us an email at [github@hasidic.dev](mailto:github@hasidic.dev).
+If you have any questions or need help integrating hdg-{apps} into your application please ask on [Discord](https://discord.gg/KpGXAEnVnv) or send us an email at [github@hasidic.dev](mailto:github@hasidic.dev).
 
 ## Report a bug
 
 If you find a bug in the source code, you can help us by
-[submitting an issue](https://github.com/hasidicdevs/hdg-web/issues/new/choose)
+[submitting an issue](https://github.com/yosileyid/jekyll-newspaper/issues/new/choose)
 or, even better, a [pull request](#send_a_pull_request) with a fix.
 
 Before you submit a new issue please
-[search the archive](https://github.com/hasidicdevs/hdg-web/issues?q=is%3Aissue+)
+[search the archive](https://github.com/yosileyid/jekyll-newspaper/issues?q=is%3Aissue+)
 to see if your issue has already been reported. Avoiding duplicate issues helps
 us focus our time on fixing issues and adding new features.
 
 ## Request a new feature
 
 If you think of a new feature that would make hdg better for everyone, please
-[start a discussion](https://github.com/hasidicdevs/Discussions) to
+[start a discussion](https://discord.gg/KpGXAEnVnv) to
 propose the idea.
 
 ## Pull Requests

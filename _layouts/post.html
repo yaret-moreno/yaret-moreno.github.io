@@ -6,11 +6,17 @@
     <article class="blog-post" style="padding-top: 12px;">
 
       <h2 class="blog-post-title mb-1">{{ page.title }}</h2>
-      <p class="blog-post-meta">{{ page.date }} by <a href="#">{{ page.author }}</a></p>
-      
+      <p></p>
+      <p class="blog-post-meta"><strong>On: </strong>{{ page.date }} | By: <a href="#">{{ page.author }}</a></p>
+      <p><strong>Tags: </strong>
+        {% for tag in page.tags %}
+        {{tag}}, 
+        {% endfor %}
+      </p>
+
       {{content}}
       
-      {{page.categories | capitalize | join: ', '}}
+      <strong>Categories:</strong> {{ page.categories }}
     </article>
   </main>
 

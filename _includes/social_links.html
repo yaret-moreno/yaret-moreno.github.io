@@ -1,15 +1,24 @@
 <div class="p-4">
   <h4 class="fst-italic">Social Links</h4>
-  <ol class="list-unstyled">
-    <li><strong>GitHub:</strong>
-      <a href="https://github.com/{{ site.github_username }}" target="_blank">
-         @{{ site.github_username }}
+  <dl>
+    <dt>GitHub: 
+      <a href="https://github.com/{{ site.social.github }}" target="_blank">
+        @{{ site.social.github }}
       </a>
-    </li>
-    <li><strong>Twitter:</strong>
-      <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
-         @{{ site.twitter_username }}
-      </a>
-    </li>
-  </ol>
+    </dt>
+    <dt>Twitter: 
+      <a href="https://twitter.com/{{ site.social.twitter }}" target="_blank">
+        @{{ site.social.twitter }}
+     </a>
+    </dt>
+    <dt>Discord: 
+      <a href="{{ site.social.discord.add_user }}" target="_blank">
+        {{ site.social.discord.username }}
+     </a>
+    </dt>
+  </dl>
+  <p>Join our support server if you need assistance or to just chat.</p>
+  <p><strong>Newspaper Support:</strong> <a href="{{ site.social.discord.join_server }}" target="_blank">
+    {{ site.social.discord.support_server }}
+ </a></p>
 </div>

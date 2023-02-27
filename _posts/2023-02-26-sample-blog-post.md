@@ -1,9 +1,10 @@
 ---
-layout: post
-title:  "Sample Blog Post"
-date:   "2023-02-26"
-author: yosileyid
-categories: bootstrap
+layout     : post
+title      : "Sample Blog Post"
+fid        : 50 
+date       : "2023-02-26"
+author     : yosileyid
+categories : bootstrap
 ---
 
 

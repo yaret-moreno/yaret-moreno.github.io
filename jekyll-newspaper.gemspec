@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = "jekyll-newspaper"
-  s.version       = "0.0.1-alpha"
+  s.version       = "0.0.2"
   s.authors       = ["Hasidic Development Group"]
   s.license       = "MPL-2.0"
   s.email         = ["yosileyid@gmail.com"]

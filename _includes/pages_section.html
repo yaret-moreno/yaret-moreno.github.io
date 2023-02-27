@@ -1,0 +1,13 @@
+<!-- PAGE LINKS -->
+<div class="p-4">
+  <h4 class="fst-italic">Internal Pages</h4>
+  <p>These links are dynamically added using liquid tags, you can edit this in:</p>
+  <code>
+    <pre>/_includes/pages_section.html</pre>
+  </code>
+  <ol class="list-unstyled">
+    {% for page in site.pages %}
+    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+    {% endfor %}
+  </ol>
+</div>
