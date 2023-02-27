@@ -1,0 +1,53 @@
+{% include top.html %}
+  <body>
+    
+    <div class="container">
+      {% include header.html %}
+      
+      {% include category_navbar.html %}
+    </div>
+
+    <main class="container">
+      
+      <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
+
+        {% include hero.html %}
+      
+      </div>
+
+      <div class="row mb-2">
+        
+        {% include feature_left.html %}
+
+        {% include feature_right.html %}
+
+      </div>
+
+      <div class="row g-5">
+        <div class="col-md-8">
+
+          {% include post_feed.html %}
+
+          {% include pagination.html %}
+
+        </div>
+
+        <div class="col-md-4">
+          <div class="position-sticky" style="top: 2rem;">
+            
+            {% include about_section.html %}
+
+            {% include archives_section.html %}
+
+            {% include social_links.html %}
+          
+          </div>
+        </div>
+      </div>
+      {% include blog_nav.html %}
+    </main>
+
+    {% include footer.html %}
+    
+  </body>
+</html>

@@ -1,0 +1,20 @@
+title: Bootstrap v5.3 Blog
+email: yosi@hasidic.dev
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here.
+baseurl: "/jekyll-newspaper" # the subpath of your site, e.g. /blog
+url: "https://yosileyid.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: hasidicdevs
+github_username:  yosileyid
+excerpt_separator: <!--more-->
+
+# Build settings
+
+plugins:
+  - jekyll-feed
+
+collections:
+  categories:
+    output: true
+
+permalink: /:categories/:title/

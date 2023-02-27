@@ -1,0 +1,18 @@
+{% include top.html %}
+
+<body>
+  <main class="container" style="padding-top: 42px;">
+    <a href="/">Home</a>
+    <article class="blog-post" style="padding-top: 12px;">
+
+      <h2 class="blog-post-title mb-1">{{ page.title }}</h2>
+      <p class="blog-post-meta">{{ page.date }} by <a href="#">{{ page.author }}</a></p>
+      
+      {{content}}
+      
+      {{page.categories | capitalize | join: ', '}}
+    </article>
+  </main>
+
+
+{% include footer.html %}
