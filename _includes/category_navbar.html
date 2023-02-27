@@ -2,7 +2,7 @@
   <nav class="nav d-flex">
     <a class="p-2 link-secondary"><strong>Categories:</strong></a>  
     {% for link in site.categories %}
-    <a class="p-2 link-secondary" href="/categories/{{link.name}}">{{ link.name }}</a>
+    <a class="p-2 link-secondary" href="{{site.url}}{{site.baseurl}}/categories/{{link.name}}">{{ link.name }}</a>
     {% endfor %}
   </nav>
 </div>
