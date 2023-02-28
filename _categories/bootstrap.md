@@ -1,8 +1,18 @@
 ---
 layout: page
 name: bootstrap
+permalink: /categories/bootstrap/
 ---
 
-{% for post in site.categories %}
-- [{{ post.name }}]({{ post.url }}) - {{ post.date | date_to_string }}
+## Category: {{page.title}}
+
+
+
+{% for post in site.posts %}
+  {% for category in site.categories %}
+    {% if category.name == "bootstrap" %}
+#### [{{post.title}}]({{post.url}})<br/><small>{{ post.date | date_to_long_string }}</small>
+By: {{post.author}}
+    {% endif %}
+  {% endfor %}
 {% endfor %}

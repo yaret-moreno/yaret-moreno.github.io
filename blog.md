@@ -10,7 +10,7 @@ Thank you for visiting the blog page, it has many posts. Possibly you meant to g
 {% for post in site.posts %}
   <article>
     <h2>
-      <a href="{{ post.url }}">
+      <a href="{{site.url}}{{site.baseurl}}{{ post.url }}">
         {{ post.title }}
       </a>
     </h2>
