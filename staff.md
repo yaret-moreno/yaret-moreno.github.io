@@ -9,8 +9,8 @@ title: Newspaper Staff
 
 ### {{ author.position }}
 
-##### [{{ author.name }}](/authors/{{ author.github }})
+##### [{{ author.name }}]({{site.url}}{{site.baseurl}}/authors/{{ author.github }})
 
-{{ author.content }}
+{{ author.excerpt }}
 
 {% endfor %}

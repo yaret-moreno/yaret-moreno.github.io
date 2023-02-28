@@ -4,7 +4,7 @@ title      : "Sample Blog Post"
 fid        : 50 
 date       : "2023-02-26"
 author     : yosileyid
-categories : bootstrap
+categories : ['bootstrap', 'jekyll']
 ---
 
 

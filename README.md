@@ -2,10 +2,13 @@
 
 [![Gem Version](https://badge.fury.io/rb/jekyll-newspaper.svg)](https://badge.fury.io/rb/jekyll-newspaper)
 
+<a href="https://jekyll-themes.com">
+    <img src="https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg" height="20" alt="Jekyll Themes Shield" loading="lazy">
+</a>
+
 ## Screenshot
 
 ![Screenshot 2023-02-27 2 25 57 PM](https://user-images.githubusercontent.com/14003326/221665661-bea2e406-aac4-480c-9b6c-c4cb68a125fb.png)
-
 
 Newspaper type blog built in bootstrap for Jekyll users. I just started working on this so give me some time to add in amazing features. You can install this theme as a gem by using `gem install jekyll-newspaper` for now it is a repo to hold this template. Eventually I will update the one in the gem install process. If you want to hel out check out the [CONTRIBUTING](CONTRIBUTING.md) docs and communicate with me over Discord. You will need to sign the [Contributors License Agreement](CLA.md) before any PRs are accepted. 
 
