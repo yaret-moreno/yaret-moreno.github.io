@@ -2,7 +2,7 @@
 
 <body>
   <main class="container" style="padding-top: 42px;">
-    <a href="/">Home</a>
+    <a href="{{site.url}}{{site.baseurl}}">Home</a>
     <article class="blog-post" style="padding-top: 12px;">
 
       <h2 class="blog-post-title mb-1">{{ page.title }}</h2>
@@ -16,7 +16,10 @@
 
       {{content}}
       
-      <strong>Categories:</strong> {{ page.categories }}
+      <strong>Categories:</strong> 
+      {% for category in page.categories %} 
+      <a href="{{category.url}}">{{category}}</a>, 
+      {% endfor %}
     </article>
   </main>
 

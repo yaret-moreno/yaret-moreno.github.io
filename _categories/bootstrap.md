@@ -10,7 +10,7 @@ permalink: /categories/bootstrap/
 
 {% for post in site.posts %}
   {% for category in site.categories %}
-    {% if category.name == "bootstrap" %}
+    {% if category.name == page.slug %}
 #### [{{post.title}}]({{post.url}})<br/><small>{{ post.date | date_to_long_string }}</small>
 By: {{post.author}}
     {% endif %}
