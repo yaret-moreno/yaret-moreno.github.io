@@ -1,0 +1,20 @@
+<div class="p-4 section-bg rounded">
+  <h4 class="fst-italic">Tag Cloud</h4>
+
+
+{% assign all_tags = "" %}
+{% for post in site.posts %}
+  {% assign tags = post.tags | join: ',' | append: ',' %}
+  {% assign all_tags = all_tags | append: tags %}
+{% endfor %}
+
+{% assign unique_tags = all_tags | split: ',' | uniq | sort %}
+
+{% for tag in unique_tags %}
+  {% if tag != "" %}
+  <a href="#!">&nbsp;{{ tag }}&nbsp;</a>
+  {% endif %}
+{% endfor %}
+
+</div>
+<p>&nbsp;</p>

@@ -1,7 +1,7 @@
 ---
 layout: page
 name: jekyll
-permalink: /categories/jekyll/
+permalink: /categories/jekyll
 ---
 
 ## Category: {{page.title}}
@@ -9,10 +9,10 @@ permalink: /categories/jekyll/
 
 
 {% for post in site.posts %}
-  {% for category in site.categories %}
-    {% if category.name == "jekyll" %}
+  {% if post.categories contains 'jekyll' %}
+    
 #### [{{post.title}}]({{post.url}})<br/><small>{{ post.date | date_to_long_string }}</small>
 By: {{post.author}}
-    {% endif %}
-  {% endfor %}
+    
+  {% endif %}
 {% endfor %}
