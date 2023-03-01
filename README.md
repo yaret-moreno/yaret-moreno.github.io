@@ -38,6 +38,10 @@ To include this in your site just edit your Gemfile and add `gem "jekyll-newspap
 
 Click the green button that says `Use This Template` and use it to create a new repo named username.github.io and then when it is ready edit the site and push the changes. It will then be live at https://username.github.io
 
+### Dockerfile
+
+In this repo there is a "Dockerfile" you can run it by typing `docker build -t jekyll-newspaper .` this will create a Dockerfile named `jekyll-newspaper`. After it installs you run `docker run -p 4000:4000 jekyll-newspaper` This will start the Jekyll server inside the Docker container and expose it on port 4000. You can then view your Jekyll theme by navigating to http://localhost:4000 in your web browser.
+
 ## Issues / Bug Reporting
 
 If you run into any issues you can raise them in [Github issues](https://github.com/yosileyid/jekyll-newspaper/issues) or simply join the [hdg-discord](https://discord.gg/KpGXAEnVnv) server where we build themes and plugins for anyone to use. 
