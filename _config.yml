@@ -1,4 +1,4 @@
-repository : Jekyll-Bootstrap/jekyll-newspaper
+repository : jekyll-bootstrap/jekyll-newspaper
 github     : [metadata]
 
 # This is a "Newspaper" blog theme written for Jekyll users in Bootstrap v5.03
@@ -13,7 +13,8 @@ github     : [metadata]
 # hop on discord and we can discuss it.
 #
 # Discord: https://discord.gg/KpGXAEnVnv
-
+# ==========================================================
+#
 # TITLE
 #
 # This is the title of your "Newspaper" for example, "The Moo York Times" :)
@@ -38,8 +39,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 # processes in more detail to help you. If you
 # get stuck feel free to reach out.
 #
-# "/jekyll-newspaper/"
-
+#  Use "/" for local development
 
 baseurl       : "/jekyll-newspaper"
 
@@ -51,8 +51,12 @@ baseurl       : "/jekyll-newspaper"
 #
 # You should change this to your sitename or there will be 
 # issues in links.
+#
+# Use localhost for local development
+# http://localhost:4000
 
-url            : "https://Jekyll-Bootstrap.github.io"
+
+url            : "https://jekyll-bootstrap.github.io"
 
 # SOCIAL 
 #

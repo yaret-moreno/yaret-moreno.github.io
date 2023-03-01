@@ -9,7 +9,7 @@ title: Categories
 
 ### {{ category.title }}
 
-[{{ category.name }}]({{category.url}}) - {{ category.date | date_to_string }}
+[{{ category.name }}]({{site.url}}{{site.baseurl}}{{category.url}}) - {{ category.date | date_to_string }}
 
 {% endfor %}
 
