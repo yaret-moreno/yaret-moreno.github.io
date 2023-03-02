@@ -18,7 +18,7 @@ There are a few different ways to install this theme.
 
 ### Clone It Locally:
 
-Clone it locally using `git clone https://github.com/yosileyid/jekyll-newspaper.git` then work on it on your own. You will need to edit **_config.yml** and change `baseurl` and `url` 
+Clone it locally using `git clone https://github.com/jekyll-bootstrap/jekyll-newspaper.git` then work on it on your own. You will need to edit **_config.yml** and change `baseurl` and `url` 
 
 ```yaml
 baseurl : "/"     # Or whatever your subdirectory is EX: /blog
@@ -44,4 +44,4 @@ In this repo there is a "Dockerfile" you can run it by typing `docker build -t j
 
 ## Issues / Bug Reporting
 
-If you run into any issues you can raise them in [Github issues](https://github.com/yosileyid/jekyll-newspaper/issues) or simply join the [hdg-discord](https://discord.gg/KpGXAEnVnv) server where we build themes and plugins for anyone to use. 
+If you run into any issues you can raise them in [Github issues](https://github.com/jekyll-bootstrap/jekyll-newspaper/issues) or simply join the [hdg-discord](https://discord.gg/KpGXAEnVnv) server where we build themes and plugins for anyone to use. 

@@ -38,10 +38,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 # I have blog posts on my site explaining these
 # processes in more detail to help you. If you
 # get stuck feel free to reach out.
-#
-#  Use "/" for local development
 
-baseurl       : "/jekyll-newspaper"
+baseurl       : "jekyll-newspaper"
 
 # URL
 #
@@ -56,7 +54,7 @@ baseurl       : "/jekyll-newspaper"
 # http://localhost:4000
 
 
-url            : "https://jekyll-bootstrap.github.io"
+url            : "https://jekyll-bootstrap.github.io/"
 
 # SOCIAL 
 #

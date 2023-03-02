@@ -11,7 +11,7 @@ permalink: /categories/jekyll
 {% for post in site.posts %}
   {% if post.categories contains 'jekyll' %}
     
-#### [{{post.title}}]({{site.url}}{{site.baseurl}}{{post.url}})<br/><small>{{ post.date | date_to_long_string }}</small>
+#### [{{post.title}}]({{ post.url  | absolute_url }})<br/><small>{{ post.date | date_to_long_string }}</small>
 By: {{post.author}}
     
   {% endif %}
