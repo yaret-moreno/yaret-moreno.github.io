@@ -1,5 +1,19 @@
 # jekyll-newspaper theme CHANGELOG
 
+## Version 0.1.0 (2023-03-01)
+
+# Added 
+
+- Category Navbar is now buttons (btn-sm)
+- Sidebar is now styled differently
+- Dockerfile
+
+## Fixed
+
+- Nav links not working due to incorrect liquid urlbeing produced
+- Staff page display
+- Staff member profile page
+
 ## Version 0.0.2 (2023-02-27)
 
 ### Added
