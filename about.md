@@ -1,11 +1,4 @@
----
-layout: page
-title: About
-permalink: /about/
----
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ESTUDIE  EN LAN ESCUELA FELIPE CALDEROL  A MIS 5 ANOS DE EDAD DISDE MUY CHICA ATIENDO MUY RAPIDO SOY RAPIDA APRENDIZ POR ESO MI MAMA ME METIO EN UNAS DE LAS MEJORES ESCUELAS QUERIDO A CAMBIO DEL ESFUERZO
+ESTUDIE EN LA ESCUELA INGNACIO AYENDE UNA DE LAS MEJORES PRIMARIAS DONDE APRENDI MUCHISIMO TENIA A LOS MEJORES MAESTROS YA QUE  PUES APENAS EMPEZABA A HACER LAS COSAS MUY BIEN LOS TRABAJOS HASTA LA  FECHA ME AH SALIDO SUOER BIEN YA QUE CASI A TDO ESE EZFUERZO EH CONSEGUIDO Y TENIDO LO QUE  ES APESAR DEL ESFUERZO 
+EN LS ECUNDARIA ME FUI A  LA ESCUELA  DONDE ESTBAN LAS MEOJRES COMPETENCIAS PARA LA MEJORES ESCUELAS ME FUI  JA ESCUELA  SECUNDARIA TECNICA N0.69 CESAR USCANGA USCANGA  E N DONDE ESTUDIE TRES ANOS  DE LA SECUNDARIA DONDE YA SON MAS EXIGENTS UN POOCO MAS DE LO DEBIDO POR QUE YA IBAMOS A  PASAR A UN GRANDO MAS SUPEROR .
+ESTUDIE EN LA PEPRARATORIA  EM EL CETIS 32 JOSE VASCONSELOS  EN DONDE SALIBIEN DE LA ESCUELA CON BUENOS RESULTADOS  PARA ENCONTRAR UN TRABAJO ESTABALE CON MIS CAPAPCIDADES  PARA DARLO TODO EN EL TRABAJO JUNTO CON MI ESFUERZO 
